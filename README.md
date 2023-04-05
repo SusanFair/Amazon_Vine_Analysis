@@ -1,26 +1,32 @@
 # Amazon Vine Analysis
 
 ## Overview of the analysis: Explain the purpose of this analysis.
-This analysis was an ercisie in using Big Data with AWS RDS, postgreSQL, pgAdmin and Google Collabary.
+This analysis was an ercisie in using Big Data with AWS RDS, postgreSQL, pgAdmin and Google Colabratory.
 
 RDS: <br> 
 A database was created in RDS and linked to pgAdmin
 ![Alt text](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/RDS_activity.PNG)
 
 pgAdmin: <br>
-Tables were created in PgAdmin for analysis
-![Alt text](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/review_id_table.PNG)
+A new server instance and database were created in pgAdmin.  
+Also Tables were created to match the dataframes created in Colabratory. <br>
+![Alt text](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/pgAdmin_tables.PNG)gAdmin for analysis.
+
+Data was loaded into each tabelfrom Colab:<br>
+![Alt text](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/customers_table.PNG)
 
 ![Alt text](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/products_table.PNG)
 
-![Alt text](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/customers_table.PNG)
+![Alt text](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/review_id_table.PNG)
 
 ![Alt text](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/vine_table.PNG)
 
-Collabary: <br>
-Data was imported and loaded up into pgAdmin.
-As well the analysis performed using PySpark in the Colab workbook to gather the final stats.
+Colabratory: <br>
+Data was imported from AmazonAWS. The data was cleaned and analysis performed using PySpark in the Colab workbook to gather the final stats.  The output was to populate the RDS database with the newly created dataframes.
 
+Two workbooks were created:
+    * Amazone_Reviews_ETL used to build the database contents
+    * Vine_Review_Analysis used to performa Analysis on the Vine users and their affect on reviews.
 
 ## Results: 
 A cleaned data set was used containing votes where helpfull votes over total votes was greater than 50%.
