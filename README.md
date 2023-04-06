@@ -14,6 +14,7 @@ Tables were created to match the dataframes created in Colabratory. <br>
 ![pdAdmin Tables](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/pgAdmin_tables.PNG)
 
 Data was loaded into each tabelfrom Colab:<br>
+
 ![customers_table](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/customers_table.PNG)<br>
 
 ![products_table](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Resources/products_table.PNG)<br>
@@ -26,7 +27,8 @@ Data was loaded into each tabelfrom Colab:<br>
 Data was imported from AmazonAWS. The data was cleaned and analysis performed using PySpark in the Colab workbook to gather the final stats.  The output migrated to the RDS database with the newly created dataframes matching the tables that had been created in pgAdmin.
 
 Two workbooks were created:<br>
-* Amazone_Reviews_ETL - used to build the database contents
+* [Amazon_Reviews_ETL](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) - used to build the database contents
+
 * Vine_Review_Analysis - used to performa Analysis on the Vine users and their affect on reviews.
 
 ## Results: 
