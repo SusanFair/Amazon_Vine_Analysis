@@ -28,7 +28,6 @@ Data was imported from AmazonAWS. The data was cleaned and analysis performed us
 
 Two workbooks were created:<br>
 * [Amazon_Reviews_ETL](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb) - used to build the database contents
-
 * [Vine_Review_Analysis](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) - used to performa Analysis on the Vine users and their affect on reviews.
 
 ## Results: 
