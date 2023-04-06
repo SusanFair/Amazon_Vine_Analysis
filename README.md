@@ -27,9 +27,9 @@ Data was loaded into each tabelfrom Colab:<br>
 Data was imported from AmazonAWS. The data was cleaned and analysis performed using PySpark in the Colab workbook to gather the final stats.  The output migrated to the RDS database with the newly created dataframes matching the tables that had been created in pgAdmin.
 
 Two workbooks were created:<br>
-* [Amazon_Reviews_ETL](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) - used to build the database contents
+* [Amazon_Reviews_ETL](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb) - used to build the database contents
 
-* Vine_Review_Analysis - used to performa Analysis on the Vine users and their affect on reviews.
+* [Vine_Review_Analysis](https://github.com/SusanFair/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) - used to performa Analysis on the Vine users and their affect on reviews.
 
 ## Results: 
 A cleaned data set was used containing votes where helpfull votes over total votes were greater than 50%.
